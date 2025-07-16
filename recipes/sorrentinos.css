@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{margin: 20px;
+background:brown;
+
+}
+body{
+  display: flex;
+  flex-direction:column ;
+  justify-content:flex-end ;/*  MUEVE LOS ITEMA como esta definido flex direction, es decir el eje */
+    align-items: center; /* MUEVE LOS ITEM DE ARRIBA HACIA ABAJO, es decir eje secundario */
+}
+h1{
+ 
+}
+
+img{
+   width: 500px;
+   height: 400px;
+
+}
+h2{}
+
+ul{display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 300px; /* Esto es un ejemplo, ajustalo a tu necesidad */
+border: 2px solid green; /* Para ver el UL */
+width: 500px;
+
+}
+
+ul li{
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid red;
+    margin: 1px;
+    background: rgb(101, 101, 168);
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+
+}
+
+ol li{}
